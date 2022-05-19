@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/istockphoto-172927885-612x612.jpg" width="30px;">
+                </div>
+        
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Login</a></li>
+                    </ul>
+                </nav>
+                <img src="" alt="cart-icon">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                   <img src="images/pexels-pixabay-325876.jpg" alt="">
+                </div>
+                <div class="col-2">
+                   <div class="form-box">
+                       <div class="button-box">
+                        <div id="btn"></div>
+                           <button type="button" class="toggle-btn" onclick="login()">login</button>
+                           <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                       </div>
+                       <form action="" id="login" class="input-area">
+                           <input type="text" placeholder="User name" class="input-field" required>
+                           <input type="password" placeholder="Password" class="input-field" required>
+                           <button type="button" class="submit-btn">Login</button>
+                           <input type="checkbox" class="checkbox">Remember me
+                           <div class="login-reg-footer">
+                               <button type="button" class="cancel-btn">Cancel</button>
+                               <label for="">
+                                   Forget <a href="">password?</a>
+                               </label>
+                           </div>
+                       </form>
+
+                       <form action="" id="register" class="input-area">
+                        <input type="text" placeholder="User name" class="input-field" required>
+                        <input type="email" name="" id="" placeholder="Email" class="input-field" required>
+                        <input type="password" placeholder="Password" class="input-field" required>
+                        <button type="button" class="submit-btn">Register</button>
+                        <input type="checkbox" class="checkbox">I agree to terms and Conditions
+                        <div class="login-reg-footer">  
+                            <p> Already have an account?<a href="">Sign in</a></p>
+                        </div>
+                    </form>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Download our App</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas deserunt,</p>
+                    <div class="app-logo">
+                        <img src="images/apple-image.png" alt="">
+                        <img src="images/goole-image logo.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="" alt="logo">
+                    <p> Our purpose is to bring fashion Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas deserunt,</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Other link</h2>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Policy</li>
+                        <li>Join our affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>WhatsApp</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+                <p class="copywrite">Copywrite &copy; 2022 </p>
+        </div>
+    </div>
+   
+       
+</body>
+
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+        x.style.left = "-400px"
+        y.style.left = "20px"
+        z.style.left = "150px"
+    }
+
+    function login(){
+        x.style.left = "20px"
+        y.style.left = "400px"
+        z.style.left = "0"
+    }
+    
+</script>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/istockphoto-172927885-612x612.jpg" width="30px;">
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </nav>
+            <img src="" alt="cart-icon">
+        </div> 
+    </div>
+    <div class="container">
+        <div class="row  Product-Img">
+        <div class="col-2">
+            <img src="images/pexels-castorly-stock-3829446.jpg" alt="" width="100%" id="product-img">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/pexels-lukas-292999.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/pexels-oluwaseun-duncan-186035.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/pexels-torsten-dettlaff-437037.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/pexels-photo-699459.jpeg" alt="" class="small-img">
+                    </div>
+
+                </div>   
+        </div>
+        <div class="col-2">
+            <p>Home / T-shirt</p>
+            <h1>Red T-shirt from HRX design</h1>
+            <h4>$80.00</h4>
+            <select>
+                <option>Select sizes</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to Cart</a>
+            <h2>Product details</h2>
+            <br>
+            <p> Give your wardrope an upgrade this summer with nice collection from HRX designs Lorem ipsum, 
+                maxime voluptatu reprehenderit neque
+             ea nihil sapiente deleniti optio ducimus iste quo sed repudiandae 
+             laboriosam?</p>
+        </div>
+    </div></div>
+    
+    
+        
+    <div class="small-container">
+
+        <div class="row row-2" >
+            <h2>Related Product</h2>
+            <h4>View More</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pexels-1.jpeg" alt="">
+                <h3>Trousers</h3>
+                <div class="rating">
+                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>        
+                </div>
+                <p>$180.00</p>  
+            </div>
+            <div class="col-4">
+                <img src="images/pexels-1.jpeg" alt="">
+                    <h3>Shoes</h3>
+                    <div class="rating">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>        
+                    </div>
+                    <p>$280.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pexels-1.jpeg" alt="">
+                    <h3>T-Shirts</h3>
+                    <div class="rating">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>        
+                    </div>
+                    <p>$380.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pexels-1.jpeg" alt="">
+                    <h3>Sun-glasses</h3>
+                    <div class="rating">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>        
+                    </div>
+                    <p>$180.00</p>
+            </div>
+        </div>
+
+      
+    </div>
+        
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Download our App</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas deserunt,</p>
+                    <div class="app-logo">
+                        <img src="images/apple-image.png" alt="">
+                        <img src="images/goole-image logo.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="" alt="logo">
+                    <p> Our purpose is to bring fashion Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas deserunt,</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Other link</h2>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Policy</li>
+                        <li>Join our affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>WhatsApp</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+                <p class="copywrite">Copywrite &copy; 2022 </p>
+        </div>
+    </div>
+   
+       
+    <script>
+        var x = document.getElementById("product-img");
+        var y = document.getElementsByClassName("small-img");
+
+        y[0].onclick = function(){
+            x.src = y[0].src;
+        }
+
+        y[1].onclick = function(){
+            x.src = y[1].src;
+        }
+
+        y[2].onclick = function(){
+            x.src = y[2].src;
+        }
+
+        y[3].onclick = function(){
+            x.src = y[3].src;
+        }
+        
+    </script>
+    
+
+
+</body>
+
+    
+</html>
